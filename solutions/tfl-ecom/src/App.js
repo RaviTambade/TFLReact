@@ -8,7 +8,6 @@ import Register from './Register';
 import Tap from './Tap';
 import { BrowserRouter as Router,Link,Route,Routes } from 'react-router-dom';
 
-
 function App() {
   return (
     <div>

@@ -11,6 +11,11 @@ class Tap extends Component{
                     <h2>TAP</h2>
                     <p>Transflower Acceleration Program</p>
                     <label>Doing ordinary things extra ordinarily</label>
+
+                   
+                       
+                        
+                   
                 </div>
             );
     }

@@ -9,3 +9,5 @@ function About() {
   );
 }
 export default About;
+//man-----------noun----object
+//work--------- verb----action
