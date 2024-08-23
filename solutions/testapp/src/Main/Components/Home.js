@@ -1,6 +1,7 @@
 // function component
 
 function Home() {
+  console.log("home invoked....");
     return (
       <div>
          <h2>Transflower Learning</h2>
