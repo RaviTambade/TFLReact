@@ -25,6 +25,7 @@ import Dashboard from '../BI/Components/Dashboard';
 import LineChart from '../BI/Components/Charts/LineChart';
 import BarChart from '../BI/Components/Charts/BarChart';
 import PieChart from '../BI/Components/Charts/PieChart';
+import Gallery from '../Catalog/Components/Flowers/Gallery';
 //import MembershipForm from '../Membership/Components/MembershipForm';
 
 
@@ -37,6 +38,7 @@ const AppRoutes = () => (
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="tap" element={<Tap />} />
+          <Route path="gallery" element={<Gallery />} />
           
           <Route path="products" element={<List />}/>
           <Route path="products/:productId" element={<Details />} />

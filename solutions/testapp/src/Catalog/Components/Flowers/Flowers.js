@@ -1,4 +1,4 @@
-function List({ items, onItemClick }) {
+function Flowers({ items, onItemClick }) {
     return (
         <div>
             <ul>
@@ -11,4 +11,4 @@ function List({ items, onItemClick }) {
     );
 }
 
-export default List;
+export default Flowers;

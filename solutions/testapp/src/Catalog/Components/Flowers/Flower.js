@@ -1,6 +1,6 @@
  
 
-function Details({ item }) {
+function Flower({ item }) {
 
     if (!item) {
         return <p>Select an item to view details.</p>;
@@ -17,4 +17,4 @@ function Details({ item }) {
         </div>
     );
 }
-export default Details;
+export default Flower;
