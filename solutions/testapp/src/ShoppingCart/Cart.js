@@ -1,4 +1,4 @@
-// src/ShoppingCart.js
+ 
 import React from 'react';
 
 const Cart = ({ cartItems }) => {

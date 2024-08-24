@@ -18,6 +18,12 @@ import Header from './Main/Components/Header';
 import Footer from './Main/Components/Footer';
 import Checkout from './ShoppingCart/Checkout';
 import ProductListing from './Catalog/Components/ProductListing';
+import CartContainer from './ShoppingCart/Context/CartContainer';
+import MemoryRouteContainer from './Routes/MemoryRouter/MemoryRouterContainer';
+import FragmentContainer from './Catalog/Components/Fragments/FragmentContainer';
+import BODDashboard from './BI/Components/BOD/BODDashboard';
+import Dashboard from './BI/Components/BOD/Dashboard';
+import MarketingDashboard from './BI/Components/Marketing/MKTDashboard';
 function App() {
   return (
     <div>
@@ -53,13 +59,26 @@ function App() {
               <Footer/>
               </Router>
 
+               <ProductGallery/>
               <Checkout/>
+                <CartContainer/>
+              
+                <MemoryRouteContainer/>
+              <FragmentContainer/>
+              <  
+       <BODDashboard/>>
+
+     
 
        */}
      
       
 
-     <ProductGallery/>
+    
+
+ 
+       <MarketingDashboard/>
+
       </div>
 </div>
   );
