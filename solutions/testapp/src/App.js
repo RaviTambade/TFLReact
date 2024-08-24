@@ -24,6 +24,8 @@ import FragmentContainer from './Catalog/Components/Fragments/FragmentContainer'
 import BODDashboard from './BI/Components/BOD/BODDashboard';
 import Dashboard from './BI/Components/BOD/Dashboard';
 import MarketingDashboard from './BI/Components/Marketing/MKTDashboard';
+import CustomerDashboard from './BI/Components/Customer/CustomerDashboard';
+import ShipmentDashboardContainer from './BI/Components/Shipper/ShipmentContainer';
 function App() {
   return (
     <div>
@@ -66,7 +68,10 @@ function App() {
                 <MemoryRouteContainer/>
               <FragmentContainer/>
               <  
-       <BODDashboard/>>
+       <BODDashboard/>
+       
+       <MarketingDashboard/>
+              <CustomerDashboard/>
 
      
 
@@ -77,7 +82,9 @@ function App() {
     
 
  
-       <MarketingDashboard/>
+
+
+       <ShipmentDashboardContainer/>
 
       </div>
 </div>
