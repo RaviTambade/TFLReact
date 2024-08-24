@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{599FC6E8-5553-44BD-ACCC-3621C5BE64E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{08B04BD3-F941-40B1-92D4-C2DD88DBC90E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "solutions\ProductApi\ProductApi.csproj", "{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "solutions\ProductApi\ProductApi.csproj", "{F59D9898-6613-4C4A-9496-EE6E88BE68E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59D9898-6613-4C4A-9496-EE6E88BE68E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59D9898-6613-4C4A-9496-EE6E88BE68E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59D9898-6613-4C4A-9496-EE6E88BE68E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59D9898-6613-4C4A-9496-EE6E88BE68E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2F4F0D6D-9F04-4401-92CA-AEB2E8587E37} = {599FC6E8-5553-44BD-ACCC-3621C5BE64E4}
+		{F59D9898-6613-4C4A-9496-EE6E88BE68E6} = {08B04BD3-F941-40B1-92D4-C2DD88DBC90E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BF1EE33-D15F-481B-A5CD-DA1CD2A10243}

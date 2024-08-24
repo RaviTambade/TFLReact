@@ -1,3 +1,5 @@
+import Timer from "./Timer";
+
 function About() {
   return (
     <div>
@@ -5,6 +7,8 @@ function About() {
       <p>Chief Mentor: Ravi Tambade</p>
       <p>Founder: Shubhangi Tambade</p>
       <p>Skill based Training Provider Company</p>
+
+      <Timer/>
     </div>
   );
 }
