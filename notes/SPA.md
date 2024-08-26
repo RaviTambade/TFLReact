@@ -62,7 +62,7 @@ React.js is a powerful JavaScript library that is particularly well-suited for b
 
 3. **Client-Side Routing**: React Router is a popular library used with React.js to handle client-side routing. It allows you to navigate between different views or components without reloading the entire page, which is essential for SPAs.
 
-4. **State Management**: React provides various ways to manage state, such as using the built-in `useState` and `useReducer` hooks, or more advanced solutions like Redux. Proper state management is crucial for maintaining a responsive and interactive user interface in SPAs⁴.
+4. **State Management**: React provides various ways to manage state, such as using the built-in `useState` and `useReducer` hooks, or more advanced solutions like Redux. Proper state management is crucial for maintaining a responsive and interactive user interface in SPAs.
 
 5. **Rich Ecosystem**: React.js has a vast ecosystem of tools and libraries that can help you build SPAs more efficiently. This includes tools for testing, styling, and managing side effects.
 
