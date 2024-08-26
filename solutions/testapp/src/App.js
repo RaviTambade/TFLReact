@@ -26,6 +26,8 @@ import Dashboard from './BI/Components/BOD/Dashboard';
 import MarketingDashboard from './BI/Components/Marketing/MKTDashboard';
 import CustomerDashboard from './BI/Components/Customer/CustomerDashboard';
 import ShipmentDashboardContainer from './BI/Components/Shipper/ShipmentContainer';
+import BarChart from './Utils/Charts/BarChart';
+
 function App() {
   return (
     <div>
@@ -73,7 +75,7 @@ function App() {
        <MarketingDashboard/>
               <CustomerDashboard/>
 
-     
+          <ShipmentDashboardContainer/>
 
        */}
      
@@ -82,9 +84,9 @@ function App() {
     
 
  
+        <BarChart/>
 
-
-       <ShipmentDashboardContainer/>
+  
 
       </div>
 </div>
