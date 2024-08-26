@@ -5,7 +5,6 @@ React.js is a popular JavaScript library developed by Facebook for building user
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Learn.md">React Learning Roadmap</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/SPA.md">Single Page Application (SPA)</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactBuildApp.md">Build React Application</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/packagemanagers.md">Role of Package Managers</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/BuildAutomation.md">Build Automation</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentbasedArchitecture.md">Component Based Architecture</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactRouting.md">ReactRouting</a>
