@@ -28,6 +28,14 @@ import CustomerDashboard from './BI/Components/Customer/CustomerDashboard';
 import ShipmentDashboardContainer from './BI/Components/Shipper/ShipmentContainer';
 import BarChart from './Utils/Charts/BarChart';
 
+import Graphics from './BI/Components/Graphics';
+
+import Keyboard from './BI/Components/KeyboardEvent';
+import Mouse from './BI/Components/MouseEvent';
+import ControlledForm from './Membership/Components/ControlledForm';
+import UncontrolledForm from './Membership/Components/UnControlledForm';
+
+
 function App() {
   return (
     <div>
@@ -77,14 +85,27 @@ function App() {
 
           <ShipmentDashboardContainer/>
 
+          <BarChart/>
+            <Graphics/>
+                <Keyboard/>
+                  <Mouse/>
+
+
+                  <UncontrolledForm/>
        */}
+
+        <ControlledForm/>
+        
      
       
+   
 
     
 
  
-        <BarChart/>
+     
+
+      
 
   
 
