@@ -3,11 +3,11 @@
 React.js is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications where you need a dynamic, interactive experience. It helps developers create reusable UI components, manage state efficiently, and build complex user interfaces with ease.
 
 
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/HowToLearnReact.md">React Learning Roadmap</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/SPA.md">Single Page Application (SPA)</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/oo.md">Objectd Oriented  Programming</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/Collections.md">Collection Framework</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/comparingobjects.md">Object Comparision</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/HowToLearnReact.md">React Learning Roadmap</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/SPA.md">Single Page Application (SPA)</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Objectd Oriented  Programming</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Collection Framework</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Object Comparision</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/LINQ.md">LINQ</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/garbagecollection.md">Garbage Collection(GC)</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/assembly.md">Assembly in .net core</a>
