@@ -5,59 +5,21 @@ React.js is a popular JavaScript library developed by Facebook for building user
 
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/HowToLearnReact.md">React Learning Roadmap</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/SPA.md">Single Page Application (SPA)</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Objectd Oriented  Programming</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Collection Framework</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/">Object Comparision</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/LINQ.md">LINQ</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/garbagecollection.md">Garbage Collection(GC)</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/assembly.md">Assembly in .net core</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/Reflection.md">Reflection</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/Serialization.md">Serialization</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/delegate.md">Delegates</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactBuildApp.md">Build React Application</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/packagemanagers.md">Role of Package Managers</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/BuildAutomation.md">Build Automation</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentbasedArchitecture.md">Component Based Architecture</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactRouting.md">ReactRouting</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Props.md">Props (Properties)</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/State.md">State</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/communication.md">Component Communication</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Reactlifecycle.md">Component LifeCycle</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/hooks.md">React Hooks</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/graphics.md">Graphics Programming</a>
 
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/events.md">Events</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/Attributes.md">Custom Attributes</a>
-
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/databasecrud.md">Data Access using C#</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/entityframework.md"> Entity Framework Core</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/dapper.md">Dapper</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/repository.md">Repository Pattern</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/multithreading.md">Mutithreading</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/cs/asyncawait.md">Asynchronous Programming using C#</a>
-
-
-
-# ASP.NET  Core
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/aspnetintro.md">ASP.NET Core Overview </a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/aspnetapp.md">ASP.NET Core App  and Folder structure</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Program.md">Program.cs file</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/mvc.md">Model View Controller(MVC) Architecture</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Controllers.md">Controllers</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/AspnetCoreLifeCycle.md">Service Lifetime (DI)</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Models.md">Model</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Views.md">Views</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/taghelper.md">Tag Helpers</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/AspnetCoreLifeCycle.md">App Life Cycle Management</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Middleware.md"> Middleware (HTTP Pipeline)</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/filters.md">Filters</a>
-
-
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Statemgmt.md"> State Management</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/Webapi.md"> WebAPI</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/crossfunctional.md"> Cross Functional Features</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/JWT.md">JWT Authentication</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/localization.md"> Localization</a>
-
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/websockets.md"> WebSockets</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/signalR.md"> SignalR</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/deploywebapp.md"> Deploying ASP .NET MVC application</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/deploywebappkubernetes.md"> Deploying  ASP.NET to Kubernetes</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/cicdgit.md"> CI/CD using Git Actions</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/cicdjenkins.md"> CI/CD using Jenkins</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/keyboardmouseevents.md">Handling Keyboard Mouse events</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/unididataflow.md">Unidirectional Data Flow</a>
  
-- Kafka
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/aspnet/mcq.md">Test your TFLReact Programming Skill(MCQ)</a>
-
 Learning React can be straightforward and enjoyable if you follow a structured approach. Here’s a simplified methodology to help you get started with React effectively:
 
 ### 1. **Understand the Basics**

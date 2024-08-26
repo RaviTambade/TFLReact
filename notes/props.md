@@ -1,3 +1,5 @@
+# React Props (Properties)
+
 In React, **props** (short for "properties") are used to pass data and event handlers from a parent component to a child component. They are a fundamental concept in React that allow components to be reusable, configurable, and dynamic. Here’s a detailed look at how props are used and why they are important:
 
 ### **1. Passing Data**
