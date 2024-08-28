@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 function LifeCycleHook() {
-    
+
   const [count, setCount] = useState(0);
   const hasMounted = useRef(false); // to track if the component has mounted
 

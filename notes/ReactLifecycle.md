@@ -73,3 +73,79 @@ function ExampleComponent() {
 - **Functional Components**: Use the `useEffect` hook to handle side effects, which combines lifecycle behaviors from class components into a single, more flexible API.
 
 Both approaches allow you to control how your components interact with the DOM and manage state and side effects throughout their lifecycle. With hooks, functional components gain powerful lifecycle capabilities, making them a more attractive option for many React developers.
+
+##  Why Lifecycle event handlers being called twice ?
+In React, it is common to see lifecycle event handlers being called twice, especially in development mode. This behavior can be attributed to several factors:
+
+### 1. **Strict Mode in Development**
+
+React's Strict Mode is a development tool designed to help you identify potential problems in your application. One of its features is intentionally double-invoking certain lifecycle methods and effects to help detect side effects and issues with components.
+
+#### Example:
+In Strict Mode, React might call `componentDidMount` and `componentDidUpdate` twice to ensure that your components handle side effects correctly and do not have unexpected behaviors.
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+
+In the example above, `React.StrictMode` can cause lifecycle methods and hooks to run twice to help detect side effects.
+
+### 2. **React 18 Automatic Batching and Concurrent Mode**
+
+React 18 introduces automatic batching and concurrent mode, which can affect how and when lifecycle methods are called. With concurrent rendering, React may re-render components in different phases to optimize performance and responsiveness, which could lead to lifecycle methods being called multiple times in certain scenarios.
+
+### 3. **Component Re-renders**
+
+If your component’s state or props change, React will re-render the component. Depending on your logic and how you manage state, lifecycle methods such as `componentDidUpdate` might be called more frequently.
+
+#### Example:
+If your state update triggers a re-render, `componentDidUpdate` will be called again.
+
+```jsx
+componentDidUpdate(prevProps, prevState) {
+  console.log('Component updated');
+}
+```
+
+### 4. **Repeated Component Mounting**
+
+If your component is being unmounted and mounted multiple times (e.g., due to conditional rendering or route changes), the lifecycle methods will be called each time the component mounts.
+
+#### Example:
+If a component is conditionally rendered based on state:
+
+```jsx
+{showComponent && <MyComponent />}
+```
+
+Every time `showComponent` toggles, `MyComponent` will be mounted and unmounted, triggering the lifecycle methods.
+
+### 5. **Using `useEffect` with Dependencies in Functional Components**
+
+In functional components, `useEffect` can run multiple times depending on the dependencies array. If dependencies change, the effect will run again, which may appear as if the effect is being invoked multiple times.
+
+#### Example:
+```jsx
+useEffect(() => {
+  console.log('Effect runs');
+}, [dependencies]); // Effect runs whenever dependencies change
+```
+
+### Summary
+
+To address the issue of lifecycle methods being called multiple times, you can:
+
+- **Check for Strict Mode**: Ensure that you understand why `React.StrictMode` might cause double-invocations. Note that this behavior is specific to development mode and does not occur in production builds.
+- **Handle Dependencies Properly**: When using hooks, ensure that dependencies are correctly specified to avoid unnecessary re-renders.
+- **Avoid Unnecessary State Changes**: Minimize unnecessary state updates and conditional re-renders to reduce redundant lifecycle calls.
+- **Understand Concurrent Mode**: Be aware of how React 18’s concurrent features might impact rendering behavior and adjust your code accordingly.
+
+If you're seeing lifecycle methods being called twice only in development and not in production, it's likely due to React's development features, and you can generally ignore this behavior when deploying your application.

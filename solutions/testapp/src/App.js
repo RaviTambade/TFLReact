@@ -35,7 +35,29 @@ import UncontrolledForm from './Membership/Components/UnControlledForm';
 import TabContainer from './Utils/Tabs/TabContainer';
 import Loginc from './Membership/Components/Loginc';
 import LifeCycle from './Utils/LifeCycle';
+import LifeCycleHook from './Utils/LifeCycleHook';
+import ProductServer from './Catalog/Services/ProductServer';
 function App() {
+  
+  const handleProductServer=()=>{
+    const server = new ProductServer();
+  
+    server.createProduct({ id: 1, name: 'Laptop', price: 1200 });
+    server.createProduct({ id: 2, name: 'Smartphone', price: 800 });
+  
+    // Reading products
+    server.getProductById(1);
+  
+    // Updating a product
+    server.updateProduct(1, { price: 1100 });
+  
+    // Deleting a product
+    server.deleteProduct(2);
+  
+    // Static method usage
+    console.log(ProductServer.getServerInfo());
+  }
+
   return (
     <div>
     <div class="container-fluid p-5 bg-primary text-white text-center">
@@ -94,13 +116,15 @@ function App() {
                   <ControlledForm/>
                   <TabContainer/>
                       <Loginc/>
-                    <LifeCycleHook/>
+                 
+                    
+                  <LifeCycle/>
+
 
        */}
-
-    <LifeCycle/>
+         <LifeCycleHook/>
     
-        
+        <button onClick={handleProductServer}>Product Server CRUD</button>
 
 
      </div>
