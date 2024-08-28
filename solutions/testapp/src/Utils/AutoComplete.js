@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Autocomplete = ({ suggestions }) => {
+  
   const [inputValue, setInputValue] = useState('');
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   const [activeSuggestionIndex, setActiveSuggestionIndex] = useState(-1);

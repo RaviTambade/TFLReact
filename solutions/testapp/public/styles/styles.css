@@ -1,0 +1,29 @@
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #f1f1f1;
+    margin-right: -1px;
+  }
+  
+  .tab.active {
+    background-color: #fff;
+    font-weight: bold;
+  }
+  
+  .tab-panel {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tab-panels {
+    margin-top: -1px;
+  }
+  
