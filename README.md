@@ -10,7 +10,7 @@ React.js is a popular JavaScript library developed by Facebook for building user
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactRouting.md">ReactRouting</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Props.md">Props (Properties)</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/State.md">State</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/communication.md">Component Communication</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentCommunication.md">Component Communication</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Reactlifecycle.md">Component LifeCycle</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/lifecyclewhentouse.md">Choosing LifeCycle event in Component</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/hooks.md">React Hooks</a>
