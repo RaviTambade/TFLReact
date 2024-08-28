@@ -1,3 +1,5 @@
+# React Component Communication
+
 In React, components need to communicate with each other to share data, trigger updates, or coordinate behavior. There are several patterns and methods for component communication, each suited to different scenarios. Here’s an overview of the various ways to handle component communication in React:
 
 ### **1. Parent to Child Communication**
