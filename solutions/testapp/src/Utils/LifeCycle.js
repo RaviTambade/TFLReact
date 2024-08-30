@@ -47,6 +47,8 @@ class LifeCycle extends Component {
 
   render() {
     console.log('render: Component is rendering');
+
+    
     return (
       <div>
         <h1>React Component Lifecycle</h1>

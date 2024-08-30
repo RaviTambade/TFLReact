@@ -1,5 +1,5 @@
 class ProductServer {
-
+  
     constructor() {
       // Initialize with an empty product list
       this.products = [];

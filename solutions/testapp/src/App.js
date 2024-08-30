@@ -36,10 +36,27 @@ import TabContainer from './Utils/Tabs/TabContainer';
 import Loginc from './Membership/Components/Loginc';
 import LifeCycle from './Utils/LifeCycle';
 import LifeCycleHook from './Utils/LifeCycleHook';
+import MathEngine from './Catalog/Services/MathEngine';
 import ProductServer from './Catalog/Services/ProductServer';
+import  DisplayManager from './Catalog/Services/Inheritance';
+
+import PubScrbContainer from './Utils/PubScrb/PubSub';
+//import Gallery from './Catalog/Components/Flowers/Gallery';
+import Gallery from './Catalog/Components/Gallery/Gallery';
+import ProductList from './Catalog/Components/Gallery/ProductList';
+import RubberBand from './BI/Components/RubberBand';
 function App() {
   
   const handleProductServer=()=>{
+
+    // Math Engine : Using static methods
+
+    //object orientation
+    
+    console.log(MathEngine.sum(30, 70)); // Output: 100
+    console.log(MathEngine.square(4)); // Output: 16
+    console.log(MathEngine.cube(2));   // Output: 8
+
     const server = new ProductServer();
   
     server.createProduct({ id: 1, name: 'Laptop', price: 1200 });
@@ -56,79 +73,104 @@ function App() {
   
     // Static method usage
     console.log(ProductServer.getServerInfo());
+
+    DisplayManager.show();
   }
 
   return (
     <div>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
+     
       <h1>Transflower</h1>
-    </div>
-      {/* <div class="container mt-5">
-        <Router>
-            <NavBar />
-            <hr/>
-            <AppRoutes />
-        </Router>
-      </div> */}
+   
+      {/*
+      </div>
+          {  <div class="container mt-5">
+            <Router>
+                <NavBar />
+                <hr/>
+                <AppRoutes />
+            </Router>
+          </div>  }
+      
+      */
+      } 
 
-      <div>
-       {/*  <MirrorTextboxes/> 
-            <Container/>
-            <ToolbarContainer/>
-            <ImageButtonContainer/>
-            <MembershipSelector/>
-            <CategorySelector/>
-            <AutoSuggestionContainer/>
-            <UserProfile / >
-            <OrderConfirmationContainer/>
-             <ProductReviewsContainer></ProductReviewsContainer>
-             <Carousel/>
+    
+      {/*<div>
+      
+              <MirrorTextboxes/> 
+              <Container/>
+              <ToolbarContainer/>
+              <ImageButtonContainer/>
+              <MembershipSelector/>
+              <CategorySelector/>
+              <AutoSuggestionContainer/>
+              <UserProfile / >
+              <OrderConfirmationContainer/>
+              <ProductReviewsContainer></ProductReviewsContainer>
+              <Carousel/>
              <<AddressForm/>/>
 
-
               <Router>
-              <Header/>
-              <ProductGallery/>
-              <Footer/>
+                  <Header/>
+                  <ProductGallery/>
+                  <Footer/>
               </Router>
 
-               <ProductGallery/>
+              <ProductGallery/>
               <Checkout/>
-                <CartContainer/>
+              <CartContainer/>
               
-                <MemoryRouteContainer/>
+              <MemoryRouteContainer/>
               <FragmentContainer/>
-              <  
-       <BODDashboard/>
-       
-       <MarketingDashboard/>
+           
+              <BODDashboard/>
+              <MarketingDashboard/>
               <CustomerDashboard/>
+              <ShipmentDashboardContainer/>
 
-          <ShipmentDashboardContainer/>
+              <BarChart/>
+              
 
-          <BarChart/>
-            <Graphics/>
-                <Keyboard/>
-                  <Mouse/>
+              
+              
+              <Loginc/>
+              <UncontrolledForm/>
+              <ControlledForm/>
 
-
-                  <UncontrolledForm/>
-                  <ControlledForm/>
-                  <TabContainer/>
-                      <Loginc/>
-                 
-                    
-                  <LifeCycle/>
-
-
-       */}
-         <LifeCycleHook/>
+     
+              
+                
+              <LifeCycle/>
+              <LifeCycleHook/>
+              <Gallery/>
+              <ProductList/>
+              <PubScrbContainer/>
+              <Graphics/>
+              <Keyboard/>
+              <RubberBand/>
+              <Mouse/>
+              <Container/>
+              <TabContainer/>
+              <ToolbarContainer/>
+              <ImageButtonContainer/>
+              <MembershipSelector/>
+              <CategorySelector/>
+              <ProductList/>
+              <Graphics/>
+              <RubberBand/>
+              <Gallery/>
+           
+      */}
     
-        <button onClick={handleProductServer}>Product Server CRUD</button>
+    
+               
+    <button onClick={handleProductServer}>Product Server CRUD</button>
 
-
+        
      </div>
-</div>
+         
+ 
   );
 }
 

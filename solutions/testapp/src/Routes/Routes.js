@@ -64,3 +64,16 @@ const AppRoutes = () => (
 );
 
 export default AppRoutes;
+
+
+/*
+
+ 
+        <Route path="customers" element={<Customers />} />
+        <Route path="customers/add" element={<CustomerCreate />} />
+        <Route path="customers/edit/:customerId" element={<CustomerEdit />} /> 
+        <Route path="customers/:customerId" element={<CustomerDetails />} />
+
+
+
+*/
