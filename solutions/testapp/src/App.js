@@ -45,6 +45,9 @@ import PubScrbContainer from './Utils/PubScrb/PubSub';
 import Gallery from './Catalog/Components/Gallery/Gallery';
 import ProductList from './Catalog/Components/Gallery/ProductList';
 import RubberBand from './BI/Components/RubberBand';
+import CounterC from './Catalog/Components/Gallery/Counterc';
+ 
+import EnviornmentConsole from './Greenhouse/EnvironmentConsole';
 function App() {
   
   const handleProductServer=()=>{
@@ -159,13 +162,15 @@ function App() {
               <ProductList/>
               <Graphics/>
               <RubberBand/>
-              <Gallery/>
+              <Gallery/>   <CounterJ/>
            
       */}
     
     
                
     <button onClick={handleProductServer}>Product Server CRUD</button>
+       
+          <EnviornmentConsole/>
 
         
      </div>
