@@ -1,5 +1,3 @@
-
-
 function Flower({ item }) {
 
     if (!item) {

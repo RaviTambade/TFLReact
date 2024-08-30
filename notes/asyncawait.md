@@ -1,3 +1,81 @@
+# `async` and `await` in Javascript
+
+ `async` and `await` are features in JavaScript that make working with asynchronous code more manageable and readable. They are part of ES2017 (ECMAScript 2017) and build on top of Promises.
+
+### Basic Concepts
+
+1. **`async` Function**: 
+   - An `async` function is a function declared with the `async` keyword.
+   - It always returns a Promise. If the function returns a value, that value is wrapped in a Promise. If the function throws an error, the Promise is rejected with that error.
+
+   ```javascript
+   async function myAsyncFunction() {
+     return "Hello, World!";
+   }
+
+   myAsyncFunction().then(console.log); // Output: "Hello, World!"
+   ```
+
+2. **`await` Expression**:
+   - `await` can only be used inside `async` functions.
+   - It pauses the execution of the `async` function and waits for the Promise to resolve or reject. Once the Promise resolves, it returns the resolved value. If the Promise is rejected, `await` throws the rejected value as an exception.
+
+   ```javascript
+   async function fetchData() {
+     let response = await fetch('https://api.example.com/data');
+     let data = await response.json();
+     return data;
+   }
+   ```
+
+### How It Works
+
+When using `async` and `await`, the code appears more synchronous and linear, which can be easier to read and reason about compared to using Promises directly with `.then()` and `.catch()`.
+
+Here's a breakdown of how it works:
+
+1. **Execution Flow**:
+   - When you call an `async` function, it returns a Promise.
+   - Inside the `async` function, you can use `await` to pause execution until a Promise is settled.
+   - This allows you to write code that looks synchronous but actually handles asynchronous operations.
+
+2. **Error Handling**:
+   - Errors in `async` functions can be caught using `try...catch` blocks.
+
+   ```javascript
+   async function fetchData() {
+     try {
+       let response = await fetch('https://api.example.com/data');
+       if (!response.ok) throw new Error('Network response was not ok');
+       let data = await response.json();
+       return data;
+     } catch (error) {
+       console.error('There was a problem with the fetch operation:', error);
+     }
+   }
+   ```
+
+### Example
+
+Here's an example combining these concepts:
+
+```javascript
+// Simulate an asynchronous operation with a Promise
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function run() {
+  console.log('Starting...');
+  await delay(2000); // Waits for 2 seconds
+  console.log('2 seconds later');
+}
+
+run();
+```
+
+In this example, `await delay(2000)` pauses execution of the `run` function for 2 seconds before logging the second message.
+
 Using `async` and `await` in React can significantly improve the readability and maintainability of asynchronous code. Here are the key advantages of using `async` and `await`:
 
 ### **1. Improved Readability**
