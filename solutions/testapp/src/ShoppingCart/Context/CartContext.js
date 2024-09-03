@@ -1,4 +1,4 @@
-// CartContext.js
+
 import React, { createContext, useState } from 'react';
 
 // Create a context for the shopping cart

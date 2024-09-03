@@ -1,15 +1,14 @@
 import EventEmitter from 'eventemitter3';
-import { useState,useEffect } from 'react';
+import {useState,useEffect } from 'react';
+
 const emitter = new EventEmitter();
 
 function Publisher() {
-
   const [text,setText]=useState('');
 
   const handleChange=(event)=>{
     setText(event.target.value);
   };
-
 
   const handleClick = (event) => {
     emitter.emit('update', text);
@@ -17,11 +16,11 @@ function Publisher() {
 
   return (
         <div>
-          <h2>Publisher</h2>
+          <lable>Publisher</lable>
            <input type="text" value={text} onChange={handleChange}/>
             <button onClick={handleClick}>Publish Data</button>
         </div>
-)
+  )
 };
 
 
@@ -43,19 +42,16 @@ function Subscriber() {
   
     return (
             <div>
-              <h2>Consumer</h2>
-              <p>{data}</p>
+              <lable>Subscriber</lable>
+              <p>Received Data ={data}</p>
             </div>
     ) ;
   }
   
-
-  
+ 
 function PubScrbContainer() {
   return (
     <div>
-      <h1>Two Component Communication</h1>
-      <hr/>
       <table>
         <tr>
           <td><Publisher/></td>

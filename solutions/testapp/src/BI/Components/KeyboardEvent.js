@@ -10,10 +10,8 @@ function Keyboard() {
   };
 
   return (
-    <div 
-      tabIndex="0" // Makes the div focusable so it can receive keyboard events
-      onKeyDown={handleKeyDown}
-    >
+    <div tabIndex="0" // Makes the div focusable so it can receive keyboard events
+         onKeyDown={handleKeyDown}>
       <p>Press any key while this div is focused.</p>
       <p>Last pressed key: {key}</p>
     </div>

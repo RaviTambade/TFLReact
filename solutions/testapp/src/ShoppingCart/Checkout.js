@@ -1,15 +1,15 @@
-// src/Checkout.js
 import React, { useState } from 'react';
 
 const Checkout = () => {
+  
   // State to manage form data
   const [billing, setBilling] = useState({ name: '', email: '', address: '' });
   const [shipping, setShipping] = useState({ name: '', address: '' });
   const [paymentMethod, setPaymentMethod] = useState('creditCard');
   const [orderSummary] = useState({
     items: [
-      { name: 'Product 1', price: 20 },
-      { name: 'Product 2', price: 35 }
+            { name: 'Gerbera', price: 20 },
+            { name: 'Lotus', price: 35 }
     ],
     subtotal: 55,
     tax: 5.5,
@@ -116,12 +116,12 @@ const Checkout = () => {
           <ul style={styles.orderSummary}>
             {orderSummary.items.map((item, index) => (
               <li key={index}>
-                {item.name} - ${item.price.toFixed(2)}
+                {item.name} - ₹{item.price.toFixed(2)}
               </li>
             ))}
-            <li>Subtotal: ${orderSummary.subtotal.toFixed(2)}</li>
-            <li>Tax: ${orderSummary.tax.toFixed(2)}</li>
-            <li>Total: ${orderSummary.total.toFixed(2)}</li>
+            <li>Subtotal: ₹{orderSummary.subtotal.toFixed(2)}</li>
+            <li>Tax: ₹{orderSummary.tax.toFixed(2)}</li>
+            <li>Total: ₹{orderSummary.total.toFixed(2)}</li>
           </ul>
         </div>
 

@@ -1,4 +1,3 @@
-// Cart.js
 import React, { useContext } from 'react';
 import CartContext from './CartContext';
 
@@ -7,16 +6,15 @@ function Cart() {
 
   return (
     <div>
-      <h2>Your Cart</h2>
-      {cart.length === 0 ? (
-        <p>Your cart is empty</p>
-      ) : (
+      <h2>My Cart</h2>
+      <br/>
+      {cart.length === 0 ? (<p>Cart is empty</p>) : (
         <ul>
           {cart.map((item) => (
-            <li key={item.id}>
-              {item.name} - ${item.price} x {item.quantity}
-              <button onClick={() => removeItem(item.id)}>Remove</button>
-            </li>
+                      <li key={item.id}>
+                        {item.name} -  ₹{item.price} x {item.quantity}
+                        <button onClick={() => removeItem(item.id)}>Remove</button>
+                      </li>
           ))}
         </ul>
       )}

@@ -12,12 +12,12 @@ import UserProfile from './CRM/Compnents/UserProfile';
 import OrderConfirmationContainer from './OrderProcessing/OrderConfirmationContainer';
 import ProductReviewsContainer from './BI/Components/ProductReviews';
 import Carousel from './Main/Components/Carousel';
-import AddressForm from './Shipping/AddressForm';
-import ProductGallery from './Catalog/Components/ProductGallery';
+
+
 import Header from './Main/Components/Header';
 import Footer from './Main/Components/Footer';
 import Checkout from './ShoppingCart/Checkout';
-import ProductListing from './Catalog/Components/ProductListing';
+import ProductListing from './Catalog/Components/Electronics/ProductListing';
 import CartContainer from './ShoppingCart/Context/CartContainer';
 import MemoryRouteContainer from './Routes/MemoryRouter/MemoryRouterContainer';
 import FragmentContainer from './Catalog/Components/Fragments/FragmentContainer';
@@ -39,29 +39,29 @@ import LifeCycleHook from './Utils/LifeCycleHook';
 import MathEngine from './Catalog/Services/MathEngine';
 import ProductServer from './Catalog/Services/ProductServer';
 import  DisplayManager from './Catalog/Services/Inheritance';
-
-import PubScrbContainer from './Utils/PubScrb/PubSub';
+ import InfiniteScroll from './Lazyloading/InfiniteScroll';
+import PubScrbContainer from './Utils/Communication/PubSub';
 //import Gallery from './Catalog/Components/Flowers/Gallery';
 import Gallery from './Catalog/Components/Gallery/Gallery';
+import ProductGallery from './Catalog/Components/Electronics/ProductGallery';
 import ProductList from './Catalog/Components/Gallery/ProductList';
 import RubberBand from './BI/Components/RubberBand';
 import CounterC from './Catalog/Components/Gallery/Counterc';
  
 import EnviornmentConsole from './Greenhouse/EnvironmentConsole';
+import Parent from './Utils/Siblings/Parent';
+import LazyLoader from './Lazyloading/LazyLoader';
+ 
 function App() {
   
   const handleProductServer=()=>{
-
     // Math Engine : Using static methods
-
     //object orientation
-    
     console.log(MathEngine.sum(30, 70)); // Output: 100
     console.log(MathEngine.square(4)); // Output: 16
     console.log(MathEngine.cube(2));   // Output: 8
 
     const server = new ProductServer();
-  
     server.createProduct({ id: 1, name: 'Laptop', price: 1200 });
     server.createProduct({ id: 2, name: 'Smartphone', price: 800 });
   
@@ -76,15 +76,12 @@ function App() {
   
     // Static method usage
     console.log(ProductServer.getServerInfo());
-
     DisplayManager.show();
   }
 
   return (
     <div>
      
-      <h1>Transflower</h1>
-   
       {/*
       </div>
           {  <div class="container mt-5">
@@ -108,7 +105,7 @@ function App() {
               <MembershipSelector/>
               <CategorySelector/>
               <AutoSuggestionContainer/>
-              <UserProfile / >
+              
               <OrderConfirmationContainer/>
               <ProductReviewsContainer></ProductReviewsContainer>
               <Carousel/>
@@ -139,40 +136,41 @@ function App() {
               
               <Loginc/>
               <UncontrolledForm/>
-              <ControlledForm/>
-
-     
-              
-                
+              <ControlledForm/>  
               <LifeCycle/>
               <LifeCycleHook/>
               <Gallery/>
               <ProductList/>
               <PubScrbContainer/>
+              <Parent/>
+              <CartContainer/>
+              <Checkout/>
+              <UserProfile / >
+                <InfiniteScroll/>
+                <LazyLoader/>
+
+
               <Graphics/>
               <Keyboard/>
-              <RubberBand/>
               <Mouse/>
+              <RubberBand/>
+                           
               <Container/>
               <TabContainer/>
               <ToolbarContainer/>
               <ImageButtonContainer/>
               <MembershipSelector/>
               <CategorySelector/>
-              <ProductList/>
-              <Graphics/>
-              <RubberBand/>
-              <Gallery/>   <CounterJ/>
+               <CounterJ/>
+              <EnviornmentConsole/>
+               <button onClick={handleProductServer}>Product Server CRUD</button>
+
            
       */}
     
-    
-               
-    <button onClick={handleProductServer}>Product Server CRUD</button>
-       
-          <EnviornmentConsole/>
 
-        
+        <ProductListing/>
+
      </div>
          
  

@@ -5,10 +5,12 @@ import Sort from './Sort';
 import ProductList from './ProductList';
 
 const initialProducts = [
-  { id: 1, name: 'Product 1', category: 'electronics', price: 200, rating: 4 },
-  { id: 2, name: 'Product 2', category: 'fashion', price: 50, rating: 5 },
-  { id: 3, name: 'Product 3', category: 'home', price: 150, rating: 3 },
-  // Add more products as needed
+  { id: 1, name: 'Apple', category: 'fruits', price: 50, rating: 5 },
+  { id: 2, name: 'Onion', category: 'vegetable', price: 150, rating: 3 },
+  { id: 3, name: 'Gerbera', category: 'flowers', price: 200, rating: 4 },
+  { id: 4, name: 'Banana', category: 'fruits', price: 200, rating: 4 },
+  { id: 5, name: 'Carrot', category: 'vegetable', price: 150, rating: 3 },
+  { id: 6, name: 'Rose', category: 'flowers', price: 200, rating: 4 }
 ];
 
 const ProductListing = () => {

@@ -1,4 +1,3 @@
-// src/OrderHistory.js
 import React from 'react';
 
 const OrderHistory = ({ orders }) => {
@@ -8,15 +7,15 @@ const OrderHistory = ({ orders }) => {
       {orders.length === 0 ? (
         <p>No orders found.</p>
       ) : (
-        <ul>
+        <table>
           {orders.map(order => (
-            <li key={order.id} style={{ marginBottom: '10px' }}>
-              <p><strong>Order ID:</strong> {order.id}</p>
-              <p><strong>Date:</strong> {order.date}</p>
-              <p><strong>Total:</strong> ${order.total.toFixed(2)}</p>
-            </li>
+            <tr key={order.id} style={{ marginBottom: '10px' }}>
+              <td><strong>Order ID:</strong> {order.id}</td>
+              <td><strong>Date:</strong> {order.date}</td>
+              <td><strong>Total:</strong> ₹{order.total.toFixed(2)}</td>
+            </tr>
           ))}
-        </ul>
+        </table>
       )}
     </div>
   );

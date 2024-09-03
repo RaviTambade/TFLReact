@@ -7,7 +7,6 @@ import ProductServiceInMem from "../../Services/ProductServiceInMem";
 const flowers=ProductServiceInMem.getAll();
 
 const ProductList = () => {
-
   const [products, setProducts] = useState(flowers);
 
   const handleLike = (productId) => {
@@ -29,18 +28,24 @@ const ProductList = () => {
     );
   };
 
-
-
   //used for side effect
-//useEffect(() => {console.log('Products updated:', products);}, [products]);
-
+  useEffect(() => {console.log('Products updated:', products);}, [products]);
 
   return (
     <div>
-      {products.map((product) => (
-                    <Product key={product.id} product={product} 
-                             onLike={handleLike} onUnlike={handleUnlike} />
-      ))}
+      <h3>Todays fresh Flowers</h3>
+      <table>
+        <tr>
+          {
+            products.map((product) => (
+              <td> 
+                <Product key={product.id} product={product} 
+                          onLike={handleLike} onUnlike={handleUnlike}/>
+              </td>        
+            ))
+          }
+        </tr>
+      </table>
     </div>
   );
 };

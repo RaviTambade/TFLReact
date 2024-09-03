@@ -2,7 +2,7 @@ import React from 'react';
 
 function Mouse() {
   const handleClick = () => {
-    alert('Button clicked!');
+    console.log('Button clicked!');
   };
 
   const handleMouseEnter = () => {
@@ -10,7 +10,8 @@ function Mouse() {
   };
 
   return (
-    <button  onClick={handleClick}  onMouseEnter={handleMouseEnter}>Insert</button>
+    <button  onClick={handleClick}  
+             onMouseEnter={handleMouseEnter}>Insert</button>
   );
 }
 

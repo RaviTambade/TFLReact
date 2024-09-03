@@ -2,11 +2,13 @@ import React, { useRef,useEffect, useState } from 'react';
 
 const RubberBand = () => {
 
-  const canvasRef = useRef(null);
-  var  startPoint= {x:0,y:0};
-  var endPoint={x:0,y:0};
-   var oldPoint={x:0,y:0};
+  
+  let  startPoint= {x:0,y:0};
+  let endPoint={x:0,y:0};
+  let oldPoint={x:0,y:0};
 
+  const canvasRef = useRef(null);
+  
 
   useEffect(() => {
 
@@ -52,7 +54,7 @@ const RubberBand = () => {
         ctx.fillRect(coordinates.top,coordinates.left, coordinates.width,coordinates.height);
         ctx.moveTo(startPoint.x,startPoint.y);
         ctx.lineTo(endPoint.x,endPoint.y);
-        ctx.strokeStyle = 'green';
+        ctx.strokeStyle = 'darkred';
         ctx.stroke();
         
 
@@ -62,8 +64,7 @@ const RubberBand = () => {
         ctx.lineTo(oldPoint.x,oldPoint.y);
         ctx.strokeStyle = 'white';
         ctx.stroke();
-    
-
+  
         console.log("mouse move " +point);
       }
     };
@@ -83,7 +84,7 @@ const RubberBand = () => {
       ctx.beginPath();
       ctx.moveTo(startPoint.x,startPoint.y);
       ctx.lineTo(endPoint.x,endPoint.y);
-      ctx.strokeStyle = 'green';
+      ctx.strokeStyle = 'darkred';
       ctx.stroke();
       console.log("mouse move " + point.x + " , "+ point.y);
     };

@@ -29,9 +29,9 @@ const Filter = ({ onFilterChange }) => {
         <label>Category:</label>
         <select value={category} onChange={handleCategoryChange} style={styles.select}>
           <option value="">All</option>
-          <option value="electronics">Electronics</option>
-          <option value="fashion">Fashion</option>
-          <option value="home">Home</option>
+          <option value="flowers">Flowers</option>
+          <option value="fruits">Fruits</option>
+          <option value="vegetables">Vegetables</option>
         </select>
       </div>
       <div style={styles.filterGroup}>

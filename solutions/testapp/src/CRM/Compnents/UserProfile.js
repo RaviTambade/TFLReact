@@ -1,9 +1,9 @@
-// src/UserProfile.js
 import React, { useState, useEffect } from 'react';
 import OrderHistory from './OrderHistory';
 
 // Simulate fetching user data from an API
 const fetchUserData = () => {
+
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
