@@ -12,16 +12,16 @@ React.js is a popular JavaScript library developed by Facebook for building user
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ReactRouting.md">ReactRouting</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/props.md">Props</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/State.md">State</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentCommunication.md">Component Communication</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/Reactlifecycle.md">Component LifeCycle</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/lifecyclewhentouse.md">Choosing LifeCycle event in Component</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/hooks.md">React Hooks</a>
 
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/keyboardmouseevents.md">Handling Keyboard Mouse events</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/unididataflow.md">Unidirectional Data Flow</a>
+
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/propetybubbling.md">Property Bubbling</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/eventtunneling.md">Event tunneling</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentCommunication.md">Component Communication</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/graphics.md">Graphics Programming</a>
 
-
- - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/asyncawait.md">Essential Javascript</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/asyncawait.md">Essential Javascript</a>
