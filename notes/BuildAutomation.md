@@ -1,4 +1,4 @@
-# Role of Package Managers and Build Automation tools in Node JS
+# Build Automation tools in Node JS
 
 ## Package Managers
 In JavaScript applications, especially those using Node.js, package managers play a crucial role in managing and maintaining dependencies. They simplify the development workflow, ensure consistent environments, and facilitate the integration of external libraries and tools. Here’s a detailed look at their roles:
