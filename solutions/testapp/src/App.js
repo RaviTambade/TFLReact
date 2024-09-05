@@ -131,50 +131,41 @@ function App() {
 
               <BarChart/>
               
-
-              
-              
-              <Loginc/>
-              <UncontrolledForm/>
-              <ControlledForm/>  
-              <LifeCycle/>
-              <LifeCycleHook/>
-              <Gallery/>
-              <ProductList/>
-              <PubScrbContainer/>
-              <Parent/>
-              <CartContainer/>
-              <Checkout/>
-              <UserProfile / >
-                <InfiniteScroll/>
-                <LazyLoader/>
-
-
-              <Graphics/>
-              <Keyboard/>
-              <Mouse/>
-              <RubberBand/>
-                           
-              <Container/>
-              <TabContainer/>
-              <ToolbarContainer/>
-              <ImageButtonContainer/>
               <MembershipSelector/>
               <CategorySelector/>
-               <CounterJ/>
+              <ToolbarContainer/>
+              <ImageButtonContainer/>
+            
+              
+              
+              <UncontrolledForm/>
+              <ControlledForm/>  
+              <CartContainer/>
+              <Checkout/>
+             
+              <InfiniteScroll/>
+              <LazyLoader/> 
+              <Container/>
+              <TabContainer/>
+              
+             
               <EnviornmentConsole/>
                <button onClick={handleProductServer}>Product Server CRUD</button>
-
-           
-      */}
-    
-
-        <ProductListing/>
-
-     </div>
+                 
          
- 
+        <CartContainer/>
+        <Checkout/>   
+        
+          <UserProfile / >    
+          
+      */}
+        <ProductList/>
+       
+       
+     </div>
   );
 }
 
 export default App;
+
+

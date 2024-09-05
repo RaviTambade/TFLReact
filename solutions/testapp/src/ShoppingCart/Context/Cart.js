@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import CartContext from './CartContext';
 
+//state less component
+
 function Cart() {
   const { cart, removeItem, getTotalPrice } = useContext(CartContext);
-
   return (
     <div>
       <h2>My Cart</h2>

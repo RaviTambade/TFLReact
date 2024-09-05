@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W3yUuVFoQn8aAKrYS5J607GwNrtmYVf3MCodgFjS5Jk=",
+  "Source": "SecureMembershipWebApp",
+  "BasePath": "_content/SecureMembershipWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,6 +1,7 @@
 // services/ProductService.js
 class ProductService {
     constructor() {
+      
         this.apiBaseUrl = 'http://localhost:5124/products'; // Replace with your API base URL
     }
 

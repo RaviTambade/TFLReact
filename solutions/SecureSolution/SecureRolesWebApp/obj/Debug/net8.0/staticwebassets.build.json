@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "A1qm7WXQgagKb1TJO6jNhWk1jq3rkEV5kbPZZ/SuqLQ=",
+  "Source": "SecureRolesWebApp",
+  "BasePath": "_content/SecureRolesWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

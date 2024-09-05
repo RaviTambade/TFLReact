@@ -15,9 +15,13 @@ const fetchUserData = () => {
           { id: 2, date: '2024-07-22', total: 89.49 },
         ],
       });
-    }, 1000);
+    }, 10000);
   });
 };
+
+
+//Blocking call--------------------simple function
+//Non Blocking--------------------rest api call
 
 const UserProfile = () => {
   const [userData, setUserData] = useState(null);
