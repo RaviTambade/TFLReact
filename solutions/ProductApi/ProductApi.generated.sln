@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{5628E1D0-CF96-45D0-BA68-0D2632125E7A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{FFF9CB81-4E5F-4508-8591-7E54B7A5A6C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "solutions\ProductApi\ProductApi.csproj", "{A20CE3E1-11C5-4D25-8162-D87E74F2C747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "solutions\ProductApi\ProductApi.csproj", "{A5AF8C5B-A1EB-485F-9B78-803B697428F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecureSolution", "SecureSolution", "{E9C2DDF6-E0DF-4B86-A1A0-5B13F77366A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecureSolution", "SecureSolution", "{DA2C423F-6A8A-4804-A963-9D9D96817E16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureRolesWebApp", "solutions\SecureSolution\SecureRolesWebApp\SecureRolesWebApp.csproj", "{3E858DA7-67DD-422D-835C-0C1AC12AAB6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureRolesWebApp", "solutions\SecureSolution\SecureRolesWebApp\SecureRolesWebApp.csproj", "{E30D125F-C05D-47D5-8D58-E27B1754AD85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureMembershipWebApp", "solutions\SecureSolution\SecureWebApp\SecureMembershipWebApp.csproj", "{05493D3F-1E11-4FEA-9809-89566B8DDD72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureMembershipWebApp", "solutions\SecureSolution\SecureWebApp\SecureMembershipWebApp.csproj", "{60E4B369-A979-4055-94E8-3DB3285A3EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,27 +19,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A20CE3E1-11C5-4D25-8162-D87E74F2C747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A20CE3E1-11C5-4D25-8162-D87E74F2C747}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A20CE3E1-11C5-4D25-8162-D87E74F2C747}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A20CE3E1-11C5-4D25-8162-D87E74F2C747}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E858DA7-67DD-422D-835C-0C1AC12AAB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E858DA7-67DD-422D-835C-0C1AC12AAB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E858DA7-67DD-422D-835C-0C1AC12AAB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E858DA7-67DD-422D-835C-0C1AC12AAB6E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05493D3F-1E11-4FEA-9809-89566B8DDD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05493D3F-1E11-4FEA-9809-89566B8DDD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05493D3F-1E11-4FEA-9809-89566B8DDD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05493D3F-1E11-4FEA-9809-89566B8DDD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5AF8C5B-A1EB-485F-9B78-803B697428F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AF8C5B-A1EB-485F-9B78-803B697428F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AF8C5B-A1EB-485F-9B78-803B697428F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AF8C5B-A1EB-485F-9B78-803B697428F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30D125F-C05D-47D5-8D58-E27B1754AD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30D125F-C05D-47D5-8D58-E27B1754AD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30D125F-C05D-47D5-8D58-E27B1754AD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30D125F-C05D-47D5-8D58-E27B1754AD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E4B369-A979-4055-94E8-3DB3285A3EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E4B369-A979-4055-94E8-3DB3285A3EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E4B369-A979-4055-94E8-3DB3285A3EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E4B369-A979-4055-94E8-3DB3285A3EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A20CE3E1-11C5-4D25-8162-D87E74F2C747} = {5628E1D0-CF96-45D0-BA68-0D2632125E7A}
-		{E9C2DDF6-E0DF-4B86-A1A0-5B13F77366A8} = {5628E1D0-CF96-45D0-BA68-0D2632125E7A}
-		{3E858DA7-67DD-422D-835C-0C1AC12AAB6E} = {E9C2DDF6-E0DF-4B86-A1A0-5B13F77366A8}
-		{05493D3F-1E11-4FEA-9809-89566B8DDD72} = {E9C2DDF6-E0DF-4B86-A1A0-5B13F77366A8}
+		{A5AF8C5B-A1EB-485F-9B78-803B697428F7} = {FFF9CB81-4E5F-4508-8591-7E54B7A5A6C2}
+		{DA2C423F-6A8A-4804-A963-9D9D96817E16} = {FFF9CB81-4E5F-4508-8591-7E54B7A5A6C2}
+		{E30D125F-C05D-47D5-8D58-E27B1754AD85} = {DA2C423F-6A8A-4804-A963-9D9D96817E16}
+		{60E4B369-A979-4055-94E8-3DB3285A3EA1} = {DA2C423F-6A8A-4804-A963-9D9D96817E16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BF1EE33-D15F-481B-A5CD-DA1CD2A10243}
