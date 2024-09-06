@@ -7,6 +7,7 @@ const UsersList = () => {
   const [error, setError] = useState(null); // State to manage errors
 
   useEffect(() => {
+    
     const fetchUsers = async () => {
       try {
         const response = await fetch('http://localhost:7000/api/users'); // Replace with your API URL

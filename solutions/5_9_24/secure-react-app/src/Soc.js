@@ -2,6 +2,7 @@ import config from './config';
 
 const Soc = () => {
   
+    
     return (
       <div>
         <h1>API URL: {config.API_URL}</h1>

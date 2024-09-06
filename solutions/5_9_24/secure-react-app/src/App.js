@@ -33,9 +33,7 @@ function App() {
   return (
     <div className="App">
        <h1>Secure Access JWT</h1>
-      <Soc/>
-
-      <div>
+          <div>
         <table>
           <tr>
             <td>User Name</td>
