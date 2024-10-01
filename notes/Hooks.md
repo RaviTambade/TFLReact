@@ -1,5 +1,4 @@
 # React Hooks
-
 In React, **hooks** are functions that allow you to use state and other React features in functional components. Introduced in React 16.8, hooks provide a way to manage state, side effects, context, and other features without writing class components. They offer a more functional and modular approach to building components.
 
 ### **Core Hooks**
