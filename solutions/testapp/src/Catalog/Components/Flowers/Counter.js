@@ -8,6 +8,7 @@ const Counter=({likes,onCounterClick})=>{
         setCount(count+1);
         onCounterClick(count);
     }
+    
 
    const decrement=()=>{
         setCount(count-1);

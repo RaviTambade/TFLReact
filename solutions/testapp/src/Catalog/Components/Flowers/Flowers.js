@@ -12,3 +12,8 @@ function Flowers({ items, onItemClick }) {
 }
 
 export default Flowers;
+
+
+
+
+
