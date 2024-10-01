@@ -17,7 +17,7 @@ React.js is a popular JavaScript library developed by Facebook for building user
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/propertytunneling.md">Property Bubbling</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/eventtunneling.md">Event tunneling</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/ComponentCommunication.md">Component Communication</a>
-- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/asyncawait.md">Asynchrnous Programming</a>
+- <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/sync_async.md">Asynchrnous Programming</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/asyncawait.md">Invocation of REST API</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/graphics.md">Graphics Programming</a>
 - <a href="https://github.com/RaviTambade/TFLReact/blob/main/notes/redux.md">Redux</a>
