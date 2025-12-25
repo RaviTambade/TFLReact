@@ -1,4 +1,4 @@
-### Mentor Storytelling: The Journey from Pages to Living Applications
+## The Journey from Pages to Living Applications
 
 Let me explain this the way I explain it to students sitting in front of me — not as definitions, but as a **journey**.
 
@@ -252,7 +252,7 @@ Once this clicks:
 
 And that’s when a **coder becomes an engineer** 🚀
 
-# Single Page Application (SPA)
+## Single Page Application (SPA)
 
 A **Single Page Application (SPA)** is a type of web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of loading entire new pages. Here are some key points about SPAs:
 
@@ -267,7 +267,7 @@ A **Single Page Application (SPA)** is a type of web application or website that
 5. **Examples**: Popular examples of SPAs include Gmail, Google Maps, and Facebook, where the content updates dynamically without requiring a full page reload.
  
 
- ## SPA vs. MPA
+ ### SPA vs. MPA
 
  The main differences between Single Page Applications (SPAs) and Multi-Page Applications (MPAs) lie in their architecture, performance, and user experience. Here's a comparison to help you understand:
 
@@ -285,7 +285,7 @@ A **Single Page Application (SPA)** is a type of web application or website that
 
 6. **Examples**: Gmail, Google Maps, and Facebook.
 
-### Multi-Page Applications (MPAs)
+#### Multi-Page Applications (MPAs)
 
 1. **Architecture**: MPAs consist of multiple HTML pages. Each user action loads a new page from the server, which can result in slower transitions.
 
@@ -299,13 +299,13 @@ A **Single Page Application (SPA)** is a type of web application or website that
 
 6. **Examples**: eBay, Amazon, and Twitter.
 
-### When to Choose Each
+### #When to Choose Each
 
 - **Choose SPA** if you need a highly interactive and dynamic user interface, such as for dashboards, social media platforms, or real-time applications.
 - **Choose MPA** if you need better SEO, simpler development, or if your application has distinct sections that can benefit from separate pages, such as e-commerce sites or blogs.
 
 
-## React JS and SPA
+### React JS and SPA
 React.js is a powerful JavaScript library that is particularly well-suited for building Single Page Applications (SPAs). Here’s how React.js and SPAs work together:
 
 ### Why Use React.js for SPAs?
@@ -320,7 +320,7 @@ React.js is a powerful JavaScript library that is particularly well-suited for b
 
 5. **Rich Ecosystem**: React.js has a vast ecosystem of tools and libraries that can help you build SPAs more efficiently. This includes tools for testing, styling, and managing side effects.
 
-### Building an SPA with React.js
+#### Building an SPA with React.js
 
 To build an SPA with React.js, you can follow these steps:
 
@@ -336,7 +336,7 @@ To build an SPA with React.js, you can follow these steps:
 
 6. **Optimize Performance**: Use techniques like code splitting and lazy loading to improve the performance of your SPA. React’s built-in tools and third-party libraries can help with this.
 
-### Example Projects
+#### Example Projects
 
 - **Gmail**: Uses React.js to provide a seamless, interactive email experience.
 - **Google Maps**: Utilizes React.js for dynamic map rendering and user interactions.
