@@ -262,14 +262,12 @@ const Button = styled.button`
 
 If you remember **only these**, you’ll write industry-grade React:
 
-✔ Small components
-✔ One responsibility per component
-✔ Reuse, don’t repeat
-✔ State where it belongs
-✔ Side effects in `useEffect`
-✔ Clear naming
-
-
+- ✔ Small components
+- ✔ One responsibility per component
+- ✔ Reuse, don’t repeat
+- ✔ State where it belongs
+- ✔ Side effects in `useEffect`
+- ✔ Clear naming
 
 ## 🎯 Big Picture Thought
 
@@ -281,6 +279,8 @@ React is not about hooks.
 Once your mind breaks UI into parts,
 React becomes *natural*.
 
+
+## More in detail
 
 React.js is inherently built around a component-based architecture. This approach involves breaking down the user interface into reusable and modular pieces called components. Each component is a self-contained unit that can be managed and rendered independently. Here's a detailed guide on how to effectively utilize React's component-based architecture:
 
