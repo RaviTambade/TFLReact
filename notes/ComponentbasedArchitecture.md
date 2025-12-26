@@ -2,11 +2,11 @@
 
 > “When you look at a web page, do you see *one big thing*… or *many small things working together*?”
 
-A navbar.
-A button.
-A card.
-A list.
-A footer.
+- A navbar.
+- A button.
+- A card.
+- A list.
+- A footer.
 
 React looked at the same problem and said:
 
@@ -14,7 +14,7 @@ React looked at the same problem and said:
 
 That is where **component-based architecture** was born.
 
----
+
 
 ## 🧩 Step 1: What Is a Component (Think LEGO)
 
@@ -56,7 +56,7 @@ This is React’s magic:
 
 > **State changes → UI automatically updates**
 
----
+
 
 ## 🏛 Step 2: Old World vs New World (Class vs Functional)
 
@@ -86,7 +86,7 @@ class Counter extends Component {
 > Learn class components **only to understand legacy code**.
 > For real-world projects → **Functional Components + Hooks**.
 
----
+
 
 ## 🧬 Step 3: Component Composition (Parent–Child Relationship)
 
@@ -120,7 +120,7 @@ function ChildComponent({ onButtonClick }) {
 
 This is one of the most important React concepts students often miss.
 
----
+
 
 ## 🧠 Step 4: State Management (Local vs Global Thinking)
 
@@ -138,7 +138,7 @@ Good for:
 * Form inputs
 * Toggles
 
----
+
 
 ### Global State (Shared Brain)
 
@@ -166,7 +166,7 @@ const { theme, setTheme } = useContext(ThemeContext);
 
 > Context is like a **notice board** in a company — everyone can read it.
 
----
+
 
 ## ⏳ Step 5: Component Lifecycle (Birth, Life, Death)
 
@@ -194,7 +194,7 @@ useEffect(() => {
 * API calls → `useEffect`
 * Cleanup (timers, subscriptions) → return function
 
----
+
 
 ## 🎁 Step 6: Props (One-Way Data Gift)
 
@@ -211,7 +211,7 @@ Child **cannot modify props**.
 If it tries to?
 ❌ React will stop you — and that’s a good thing.
 
----
+
 
 ## 🛡 Step 7: Prop Validation (Professional Discipline)
 
@@ -229,7 +229,7 @@ WelcomeMessage.propTypes = {
 
 > This is like **type-checking** before runtime errors happen.
 
----
+
 
 ## 🎨 Step 8: Styling Components (Keep CSS Organized)
 
@@ -241,7 +241,7 @@ import styles from "./Button.module.css";
 
 Only that component sees that CSS.
 
----
+
 
 ### Styled Components → Component + Style Together
 
@@ -256,7 +256,7 @@ const Button = styled.button`
 
 > Styling becomes part of the component’s identity.
 
----
+
 
 ## ✅ Final Mentor Wisdom: Best Practices
 
@@ -269,7 +269,7 @@ If you remember **only these**, you’ll write industry-grade React:
 ✔ Side effects in `useEffect`
 ✔ Clear naming
 
----
+
 
 ## 🎯 Big Picture Thought
 
