@@ -1,4 +1,4 @@
-# Building a React Application – The Classroom Story
+# Building a React Application
 
 Alright, let me continue this the way I do it in a real mentoring session.
 
