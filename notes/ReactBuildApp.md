@@ -1,4 +1,4 @@
-### Mentor-Driven Learning (Continued): **Building a React Application – The Classroom Story**
+# Building a React Application – The Classroom Story
 
 Alright, let me continue this the way I do it in a real mentoring session.
 
@@ -9,7 +9,7 @@ I look at my students and say:
 
 And then the journey starts.
 
----
+
 
 ## 🧑‍🏫 Scene 1: Preparing the Workshop (Environment Setup)
 
@@ -31,7 +31,6 @@ I make it very clear:
 
 Once Node is installed, half the fear disappears.
 
----
 
 ## 🧑‍🏫 Scene 2: Creating the App (Birth of the Project)
 
@@ -59,7 +58,6 @@ No configuration chaos.
 
 Just **focus on learning React**.
 
----
 
 ## 🧭 Scene 3: Understanding the House Layout (Folder Structure)
 
@@ -81,7 +79,6 @@ Then I drop the mentor line:
 
 That single understanding removes **years of confusion**.
 
----
 
 ## 🧱 Scene 4: Building with Components (Lego Mindset)
 
@@ -113,7 +110,6 @@ That’s it.
 No fear.
 No ceremony.
 
----
 
 ## 🎨 Scene 5: Dressing the UI (Styling)
 
@@ -141,7 +137,6 @@ They learn:
 
 Professional thinking begins here.
 
----
 
 ## 🧪 Scene 6: Testing – Trust but Verify
 
@@ -164,7 +159,6 @@ I tell them:
 > “Testing is not for seniors.
 > Testing is for **responsible developers**.”
 
----
 
 ## 🏗️ Scene 7: Building for the Real World (Production Build)
 
@@ -191,7 +185,6 @@ Students realize:
 
 This is engineering maturity.
 
----
 
 ## 🚀 Scene 8: Deployment – Showing the World
 
@@ -214,8 +207,6 @@ They start believing:
 
 > “Yes, I can build real applications.”
 
----
-
 ## 🔁 Scene 9: Maintain, Improve, Repeat
 
 Finally, I slow them down.
@@ -234,7 +225,6 @@ They learn:
 * Code is never finished
 * Software is always evolving
 
----
 
 ## 🧠 Mentor’s Closing Message
 
