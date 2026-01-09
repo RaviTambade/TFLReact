@@ -1,4 +1,4 @@
-# 🌱 Mentor Story: “State is the Component’s Personal Memory”
+# 🌱 “State is the Component’s Personal Memory”
 
 Imagine a **React component as a human being**.
 
