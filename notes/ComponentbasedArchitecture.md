@@ -1,5 +1,4 @@
 ## 🌱 How React Thinks in Components
-
 > “When you look at a web page, do you see *one big thing*… or *many small things working together*?”
 
 - A navbar.
@@ -13,8 +12,6 @@ React looked at the same problem and said:
 👉 **Let’s build UI the way engineers build machines — using parts.**
 
 That is where **component-based architecture** was born.
-
-
 
 ## 🧩 Step 1: What Is a Component (Think LEGO)
 
@@ -85,8 +82,6 @@ class Counter extends Component {
 
 > Learn class components **only to understand legacy code**.
 > For real-world projects → **Functional Components + Hooks**.
-
-
 
 ## 🧬 Step 3: Component Composition (Parent–Child Relationship)
 
