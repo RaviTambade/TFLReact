@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+    <Product>
+        <id>1</id>
+        <title>Smartphone</title>
+        <description>5G phone</description>
+        <price>29999</price>
+        <likes>150</likes>
+        <ratings>4.5</ratings>
+    </Product>
+
+    <Product>
+        <id>2</id>
+        <title>Laptop</title>
+        <description>High performance laptop</description>
+        <price>75000</price>
+        <likes>200</likes>
+        <ratings>4.7</ratings>
+    </Product>
+
+    </ratings>
+    </Product>
+
+    <Product>
+        <id>3</id>
+        <title>Tablet</title>
+        <description>10-inch display tablet</description>
+        <price>20000</price>
+        <likes>120</likes>
+        <ratings>4.3</ratings>
+    </Product>
+
+    <Product>
+        <id>4</id>
+        <title>Smartwatch</title>
+        <description>Fitness tracking smartwatch</description>
+        <price>8000</price>
+        <likes>180</likes>
+        <ratings>4.4</ratings>
+    </Product>
+
+    <Product>
+        <id>5</id>
+        <title>Headphones</title>
+        <description>Noise cancelling headphones</description>
+        <price>6000</price>
+        <likes>220</likes>
+        <ratings>4.6</ratings>
+    </Product>
+
+    <Product>
+        <id>6</id>
+        <title>Bluetooth Speaker</title>
+        <description>Portable speaker with deep bass</description>
+        <price>3500</price>
+        <likes>140</likes>
+        <ratings>4.2</ratings>
+    </Product>
+
+    <Product>
+        <id>7</id>
+        <title>Keyboard</title>
+        <description>Mechanical keyboard</description>
+        <price>4500</price>
+        <likes>90</likes>
+        <ratings>4.1</ratings>
+    </Product>
+
+    <Product>
+        <id>8</id>
+        <title>Mouse</title>
+        <description>Wireless optical mouse</description>
+        <price>1200</price>
+        <likes>110</likes>
+        <ratings>4.0</ratings>
+    </Product>
+
+    <Product>
+        <id>9</id>
+        <title>Monitor</title>
+        <description>24-inch LED monitor</description>
+        <price>15000</price>
+        <likes>130</likes>
+        <ratings>4.3</ratings>
+    </Product>
+
+    <Product>
+        <id>10</id>
+        <title>External Hard Drive</title>
+        <description>1TB portable storage</description>
+        <price>5000</price>
+        <likes>160</likes>
+        <ratings>4.5</ratings>
+    </Product>
+</Products>
