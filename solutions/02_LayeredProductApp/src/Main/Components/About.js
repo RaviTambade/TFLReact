@@ -1,17 +1,11 @@
-import Timer from "./Timer";
-
-function About() {
+ const  About=()=> {
   return (
     <div>
       <h1>Transflower Leraning Pvt. Ltd.</h1>
       <p>Chief Mentor: Ravi Tambade</p>
       <p>Founder: Shubhangi Tambade</p>
       <p>Skill based Training Provider Company</p>
-
-      <Timer/>
     </div>
   );
 }
 export default About;
-//man-----------noun----object
-//work--------- verb----action

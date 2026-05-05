@@ -87,18 +87,10 @@ function App() {
 
   return (
     <div>
-       <Login/>
-   
+      <h1>Hello</h1>
      
      </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
- 
