@@ -1,8 +1,3 @@
-//Lambda expression
-//Arrow function
-//Anonymous function
-//varible storing address of unnamed function 
-//( constfunction pointer)
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // If you're using react-router for navigation
@@ -43,20 +38,45 @@ const Login=()=> {
 
     return (
       <div>
-            <form onSubmit={handleSubmit}>
-            <div>
-                <label>Email:
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                </label>
-            </div>
-            <div>
-                <label>Password:
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-                </label>
-            </div>
-            <button type="submit">Login</button>
-            {error && <p>Error: {error}</p>}
-        </form>
+            <div className="form-container">
+  <form onSubmit={handleSubmit}>
+
+    <div className="form-group">
+      <label htmlFor="email">Email</label>
+      <input 
+        type="email" 
+        id="email"
+        value={email} 
+        onChange={(e) => setEmail(e.target.value)} 
+        required 
+        placeholder="Enter your email"
+      />
+    </div>
+
+    <div className="form-group">
+      <label htmlFor="password">Password</label>
+      <input 
+        type="password" 
+        id="password"
+        value={password} 
+        onChange={(e) => setPassword(e.target.value)} 
+        required 
+        placeholder="Enter your password"
+      />
+    </div>
+
+    {error && (
+      <div className="form-error">
+        Error: {error}
+      </div>
+    )}
+
+    <div className="form-group">
+      <button type="submit">Login</button>
+    </div>
+
+  </form>
+</div>
         </div>
     );
   }

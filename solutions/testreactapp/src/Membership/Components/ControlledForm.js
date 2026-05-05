@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import   './ControlledForm.css';
 
-function ControlledForm() {
+const  ControlledForm=()=> {
 
   const [formData, setFormData] = useState({
     name: '',
@@ -22,24 +23,49 @@ function ControlledForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input type="text" name="name" value={formData.name} onChange={handleChange} />
-      </label>
-      <br />
-      <label>
-        Email:
-        <input type="email" name="email" value={formData.email} onChange={handleChange} />
-      </label>
-      <br />
-      <label>
-        Password:
-        <input type="password" name="password" value={formData.password} onChange={handleChange} />
-      </label>
-      <br />
-      <button type="submit">Submit</button>
-    </form>
+   <form className="form-container" onSubmit={handleSubmit}>
+  
+  <div className="form-group">
+    <label htmlFor="name">Name</label>
+    <input 
+      type="text" 
+      id="name"
+      name="name" 
+      value={formData.name} 
+      onChange={handleChange} 
+      placeholder="Enter your name"
+    />
+  </div>
+
+  <div className="form-group">
+    <label htmlFor="email">Email</label>
+    <input 
+      type="email" 
+      id="email"
+      name="email" 
+      value={formData.email} 
+      onChange={handleChange} 
+      placeholder="Enter your email"
+    />
+  </div>
+
+  <div className="form-group">
+    <label htmlFor="password">Password</label>
+    <input 
+      type="password" 
+      id="password"
+      name="password" 
+      value={formData.password} 
+      onChange={handleChange} 
+      placeholder="Enter your password"
+    />
+  </div>
+
+  <div className="form-group">
+    <button type="submit">Submit</button>
+  </div>
+
+</form>
   );
 }
 
