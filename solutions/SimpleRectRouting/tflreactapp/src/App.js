@@ -8,20 +8,20 @@ import SalesDashboard from './components/SalesDashboard';
 import { Routes, Route } from 'react-router-dom';
 import Aboutus from './components/Aboutus';
 import Contact from './components/Contact';
+import Dashboard from './pages/dashboard';
+ 
+import PieChart from './components/dashboards/piechart';
+import LineChart from './components/dashboards/linechart';
+import Barchart from './components/dashboards/barchart';
+
+import India from './components/countries/india';
+import US from './components/countries/us';
+import UK from './components/countries/uk';
 
 
 function App() {
-
-  const currentFlower = {
-    name: 'Tulip',
-    color: 'Pink',
-    price: 15.99
-  };
-
-
   return (
     <div className="App">
-
        <a href="/">List</a>|<a href="/aboutus">About Us</a> | <a href="/contact">Contact</a> | <a href="/login">Login</a> | <a href="/register">Register</a> | <a href="/details">Details</a> | <a href="/dashboard">Dashboard</a>
        <hr />
        <Routes>
@@ -31,7 +31,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/details/:id" element={<Details />} />
-        <Route path="/dashboard" element={<SalesDashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} >
+          <Route path="/dashboard/piechart" element={<PieChart />}/>   
+          <Route path="/dashboard/linechart" element={<LineChart />} />
+          <Route path="/dashboard/barchart" element={<Barchart />} />
+        </Route>
       </Routes>
       </div>
     );
